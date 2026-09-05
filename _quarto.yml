@@ -12,6 +12,14 @@ project:
     # _includes/enhance.html.
     - dl/pdf.html
     - dl/epub.html
+    # Same trick for "buy me a coffee" clicks — one page per placement, since
+    # the path is all Cloudflare records.
+    - go/kofi-sidebar.html
+    - go/kofi-mobile.html
+    - go/kofi-end.html
+    # And for reading milestones, which is how we tell a reader from a visitor.
+    - read/engaged.html
+    - read/deep.html
 
 # Single source of truth: index.qmd. Every output below is generated from it.
 format:
